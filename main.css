@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+}
+.card-conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-side{
+    width: 50%;
+    height: 100%;
+}
+.left-side .image1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #FFCD4B;
+}
+.inner{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.logo-conteiner .brand-logo{
+    width: 160px;
+    height: 95px;
+    object-fit: cover;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-up-text{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.big-text{
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.small-text{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    width: 380px;
+
+}
+.input-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+    .input-conteiner input {
+        width: 300px;
+        border-radius: 0px;
+        margin: 10px;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+        border: black  2px solid;
+
+    }
+    .input-conteiner button {
+        width: 330px;
+        height: 40px;
+        border-radius: 0px;
+        background-color:black;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        margin:10px;
+        padding: 4px;
+        border: black 3px solid;
+        transition: 300ms;
+        
+
+
+    }
+    .input-conteiner button1{
+        font-weight: bold;
+       
+    }
+    
+
